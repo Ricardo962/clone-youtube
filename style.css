@@ -1,0 +1,63 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+menu{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+}
+menu div.logo-menu {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    padding-left: 20px;
+}
+menu div.barra-pesquisa{
+    display: flex;
+    align-items: center;
+}
+menu div.perfil{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-right: 15px;
+}
+main{
+    margin-top: 25px;
+}
+section.container-video{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    margin-left: 30px;
+}
+section.container-video div.video-dio img{
+    width: 932px;
+    height: 537px;
+}
+section.container-video div.botoes-canal{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+section.container-video div.botoes-canal div{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    padding-right: 12px;
+}
+section.slide{
+    display: inline-flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-around;
+    right: 5px;
+}
+
+
